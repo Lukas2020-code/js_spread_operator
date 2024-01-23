@@ -23,12 +23,6 @@ let subjects = [...students[0].subjects]
 
 const update = (item, val) => (item.push(val), [...item]);
 
-// const update = (item, val) => {
-//     item.push(val);
-//     let arr1 = [...item]
-//     console.log(arr1)
-// }
-
 let updatedSubjects = update(subjects, "Electronics")
 console.log(updatedSubjects)
 console.log(students[0])
